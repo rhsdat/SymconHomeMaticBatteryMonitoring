@@ -4,6 +4,7 @@
 ![Version](https://img.shields.io/badge/Modul_Version-1.01-blue.svg)
 ![Version](https://img.shields.io/badge/Code-PHP-blue.svg)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![StyleCI](https://github.styleci.io/repos/135727452/shield?branch=master)](https://github.styleci.io/repos/135727452)
 
 Dieses Modul überwacht den Batteriestatus von batteriebetriebenen HomeMatic (http://www.eq-3.de/produkte/homematic.html) oder HomeMaticIP (http://www.eq-3.de/produkte/homematic-ip.html) Geräten (nachfolgend Geräte genannt), welche in IP-Symcon (https://www.symcon.de) angelegt, bzw vorhanden sind. 
 
