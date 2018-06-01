@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 //######### HomeMatic Battery Monitoring Module ##########
 
 /*
@@ -25,6 +24,8 @@ declare(strict_types=1);
  * @changelog   2018-05-24, 19:45, initial module script version 1.00
  *
  */
+
+declare(strict_types=1);
 
 // Definitions
 if (!defined('IPS_BASE')) {
