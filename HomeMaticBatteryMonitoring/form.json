@@ -1,0 +1,270 @@
+{
+  "elements": [
+    {
+      "type": "Label",
+      "label": "HomeMatic Battery Monitoring - Version 1.00 (2018-05-24, 19:45)"
+    },
+    {
+      "type": "Label",
+      "label": " "
+    },
+    {
+      "type": "Label",
+      "label": "(1) General Settings"
+    },
+    {
+      "type": "SelectCategory",
+      "name": "CategoryID",
+      "caption": "Category"
+    },
+    {
+      "type": "ValidationTextBox",
+      "name": "InstanceDescription",
+      "caption": "Instance Description"
+    },
+    {
+      "type": "ValidationTextBox",
+      "name": "LocationDesignation",
+      "caption": "Location Designation"
+    },
+    {
+      "type": "Label",
+      "label": " "
+    },
+    {
+      "type": "Label",
+      "label": "(2) Check State"
+    },
+    {
+      "type": "CheckBox",
+      "name": "UseDailyCheck",
+      "caption": "Daily Check"
+    },
+    {
+      "type": "SelectTime",
+      "name": "DailyCheckTime",
+      "caption": "Time"
+    },
+    {
+      "type": "Label",
+      "label": " "
+    },
+    {
+      "type": "Label",
+      "label": "(3) Push Notifications"
+    },
+    {
+      "type": "ValidationTextBox",
+      "name": "TitleDescription",
+      "caption": "Title Description"
+    },
+    {
+      "type": "List",
+      "name": "NotificationList",
+      "rowCount": 5,
+      "add": true,
+      "delete": true,
+      "sort": {
+        "column": "Position",
+        "direction": "ascending"
+      },
+      "columns": [
+        {
+          "label": "Position",
+          "name": "Position",
+          "width": "100px",
+          "add": "",
+          "edit": {
+            "type": "ValidationTextBox"
+          }
+        },
+        {
+          "label": "WebFront / Pushover",
+          "name": "InstanceID",
+          "width": "auto",
+          "add": 0,
+          "edit": {
+            "type": "SelectInstance"
+          }
+        },
+        {
+          "label": "Utilisation",
+          "name": "UseUtilisation",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        },
+        {
+          "label": "Status OK",
+          "name": "UseNotification",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        },
+        {
+          "label": "Low Battery",
+          "name": "UseAlertNotification",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "label": "(4) Email Notifications"
+    },
+    {
+      "type": "ValidationTextBox",
+      "name": "EmailSubject",
+      "caption": "Email Subject"
+    },
+    {
+      "type": "List",
+      "name": "EmailRecipientList",
+      "rowCount": 5,
+      "add": true,
+      "delete": true,
+      "sort": {
+        "column": "Position",
+        "direction": "ascending"
+      },
+      "columns": [
+        {
+          "label": "Position",
+          "name": "Position",
+          "width": "100px",
+          "add": "",
+          "edit": {
+            "type": "ValidationTextBox"
+          }
+        },
+        {
+          "label": "Email (SMTP) Instance",
+          "name": "InstanceID",
+          "width": "auto",
+          "add": 0,
+          "edit": {
+            "type": "SelectInstance"
+          }
+        },
+        {
+          "label": "Email Address",
+          "name": "EmailAddress",
+          "width": "300px",
+          "add": "@",
+          "edit": {
+            "type": "ValidationTextBox"
+          }
+        },
+        {
+          "label": "Utilisation",
+          "name": "UseUtilisation",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        },
+        {
+          "label": "Status OK",
+          "name": "UseNotification",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        },
+        {
+          "label": "Low Battery",
+          "name": "UseAlertNotification",
+          "width": "150px",
+          "add": true,
+          "edit": {
+            "type": "CheckBox"
+          }
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Show State",
+      "onClick": "UBHMBM_ShowBatteryState($id);"
+    },
+    {
+      "type": "Button",
+      "label": "Check Status",
+      "onClick": "UBHMBM_CheckBatteryState($id);"
+    },
+    {
+      "type": "Button",
+      "label": "Create Overview",
+      "onClick": "UBHMBM_CreateBatteryLinks($id);"
+    },
+    {
+      "type": "Button",
+      "label": "Assign Profile",
+      "onClick": "UBHMBM_AssignBatteryProfile($id);"
+    }
+  ],
+  "status": [
+    {
+      "code": 101,
+      "icon": "active",
+      "caption": "HomeMatic Battery Monitoring will be created"
+    },
+    {
+      "code": 102,
+      "icon": "active",
+      "caption": "HomeMatic Battery Monitoring is active"
+    },
+    {
+      "code": 103,
+      "icon": "active",
+      "caption": "HomeMatic Battery Monitoring will be deleted"
+    },
+    {
+      "code": 104,
+      "icon": "inactive",
+      "caption": "HomeMatic Battery Monitoring is inactive"
+    },
+    {
+      "code": 2121,
+      "icon": "error",
+      "caption": "Please enter an instance description under (1) General Settings!"
+    },
+    {
+      "code": 2311,
+      "icon": "error",
+      "caption": "Please enter a title description under (3) Push Notifications!"
+    },
+    {
+      "code": 2321,
+      "icon": "error",
+      "caption": "Please check the entries marked in red under (3) Push Notifications!"
+    },
+    {
+      "code": 2411,
+      "icon": "error",
+      "caption": "Please enter an email subject under (4) Email Notifications!"
+    },
+    {
+      "code": 2421,
+      "icon": "error",
+      "caption": "Please check the entries marked in red under (4) Email Notifications!"
+    },
+    {
+      "code": 2999,
+      "icon": "error",
+      "caption": "An unknown error has occurred!"
+    }
+  ]
+}

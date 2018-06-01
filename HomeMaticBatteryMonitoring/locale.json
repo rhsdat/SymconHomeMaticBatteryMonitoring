@@ -1,0 +1,42 @@
+{
+  "translations": {
+    "de": {
+      "HomeMatic Battery Monitoring - Version 1.00 (2018-05-24, 19:45)": "HomeMatic Batterieüberwachung - Version 1.00 (24.05.2018, 19:45)",
+      "(1) General Settings": "(1) Allgemeine Einstellungen",
+      "Category": "Kategorie",
+      "Instance Description": "Instanzbezeichnung",
+      "Location Designation": "Standortbezeichnung",
+      "(2) Check State": "(2) Statusüberpüfung",
+      "Daily Check": "Tägliche Überprüfung",
+      "Time": "Uhrzeit",
+      "(3) Push Notifications": "(3) Push Benachrichtigungen",
+      "Title Description": "Titelbezeichnung",
+      "Utilisation": "Verwendung",
+      "Low Battery": "Batterie schwach",
+      "(4) Email Notifications": "(4) E-Mail Benachrichtigungen",
+      "Email Subject": "E-Mail Betreff",
+      "Email Instance (SMTP)": "E-Mail Instanz (SMTP)",
+      "Email Address": "E-Mail Adresse",
+      "Assign Profile": "Batterieprofil zuweisen",
+      "Show State": "Batteriestatus anzeigen",
+      "Create Overview": "Batterieliste anlegen",
+      "Check Status": "Batteriestatus prüfen",
+      "HomeMatic Battery Monitoring will be created": "HomeMatic Batterieüberwachung wird erstellt",
+      "HomeMatic Battery Monitoring is active": "HomeMatic Batterieüberwachung ist aktiv",
+      "HomeMatic Battery Monitoring will be deleted": "HomeMatic Batterieüberwachung wird gelöscht",
+      "HomeMatic Battery Monitoring is inactive": "HomeMatic Batterieüberwachung ist inaktiv",
+      "Please enter an instance description under (1) General Settings!": "Bitte geben Sie eine Instanzbezeichnung unter (1) Allgemeine Einstellungen an!",
+      "Please enter a title description under (3) Push Notifications!": "Bitte geben Sie eine Titelbezeichnung unter (3) Push Benachrichtigungen an!",
+      "Please check the entries marked in red under (3) Push Notifications!": "Bitte überprüfen Sie die rot markierten Einträge unter (3) Push Benachrichtigungen!",
+      "Please enter an email subject under (4) Email Notifications!": "Bitte geben Sie einen E-Mail Betreff unter (4) E-Mail Benachrichtigungen an!",
+      "Please check the entries marked in red under (4) Email Notifications!": "Bitte überprüfen Sie die rot markierten Einträge unter (4) E-Mail Benachrichtigungen!",
+      "An unknown error has occurred!": "Es ist ein unbekannter Fehler aufgetreten!",
+      "HomeMatic Battery Monitoring": "HomeMatic Batterieüberwachung",
+      "Battery Monitoring": "Batterieüberwachung",
+      "Battery State": "Batteriestatus",
+      "There are no HomeMatic devices available!": "Es sind keine HomeMatic Geräte vorhanden!",
+      "Battery low.": "Batterie schwach.",
+      "Please replace as soon as possible!": "Bitte zeitnah austauschen!"
+    }
+  }
+}

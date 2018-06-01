@@ -1,0 +1,14 @@
+{
+  "id": "{AF3D2026-7739-4011-A0A4-B0A53F6556F8}",
+  "name": "HomeMaticBatteryMonitoring",
+  "type": 3,
+  "vendor": "Ulrich Bittner",
+  "aliases": [
+    "HomeMatic BatteryMonitoring",
+    "HomeMatic Batterieüberwachung"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "UBHMBM"
+}
