@@ -147,21 +147,21 @@ Es werden keine Profile angelegt.
 
 Präfix des Moduls `UBHMBM` (HomeMaticBatteryMonitoring)
 
-`UBHMBM_AssignBatteryProfile(integer $InstanzID)`
-
-Weist den vorhandenen Geräten das Batterieprofil zu.
-
 `UBHMBM_ShowBatteryState(integer $InstanzID)`
 
 Zeigt den Batteriestatus aller in IP-Symcon vorhandenen Geräte an.
+
+`UBHMBM_CheckBatteryState(integer $InstanzID)`
+
+Prüft den Batteriestatus aller in IP-Symcon vorhandenen  Geräte und führt die Benachrichtigungen aus.
 
 `UBHMBM_CreateBatteryLinks(integer $InstanzID)`
 
 Ein Link über den Batteriestatus aller in IP-Symcon vorhandenen Geräte wird unterhalb der Instanz angelegt.
 
-`UBHMBM_CheckBatteryState(integer $InstanzID)`
+`UBHMBM_AssignBatteryProfile(integer $InstanzID)`
 
-Prüft den Batteriestatus aller in IP-Symcon vorhandenen  Geräte und führt die Benachrichtigungen aus.
+Weist den vorhandenen Geräten das Batterieprofil zu.
 
 ### 8. GUIDs
 

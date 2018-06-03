@@ -1,8 +1,8 @@
 <?php
 
-//######### HomeMatic Battery Monitoring Module ##########
-
 /*
+ * @module      HomeMatic Battery Monitoring Module
+ *
  * @file        module.php
  *
  * @author      Ulrich Bittner
@@ -13,7 +13,7 @@
  * @date:       2018-05-24, 19:45
  * @lastchange  2018-05-24, 19:45
  *
- * @see         https://https://github.com/ubittner/SymconHomeMaticBatteryMonitoring.git
+ * @see         https://github.com/ubittner/SymconHomeMaticBatteryMonitoring.git
  *
  * @guids       Library
  *              {2FF2A23B-D6BD-4474-ACBE-382773341175}
