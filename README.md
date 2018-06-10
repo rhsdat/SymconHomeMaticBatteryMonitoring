@@ -1,4 +1,4 @@
-## HomeMatic Batterieüberwachung für IP-Symcon
+## SymconHomeMaticBatteryMonitoring
 
 [![Version](https://img.shields.io/badge/Symcon_Version-5.0>-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
 ![Version](https://img.shields.io/badge/Modul_Version-1.00-blue.svg)
@@ -8,7 +8,7 @@
 
 Dieses Modul überwacht den Batteriestatus von batteriebetriebenen [HomeMatic](http://www.eq-3.de/produkte/homematic.html) oder [HomeMaticIP](http://www.eq-3.de/produkte/homematic-ip.html) Geräten (nachfolgend Geräte genannt), welche in [IP-Symcon](https://www.symcon.de) angelegt, bzw vorhanden sind. 
 
-Die Prüfung des Batteriestatus wird einmal täglich durchgeführt.
+Die Prüfung des Batteriestatus wird automatisch einmal täglich durchgeführt oder über den Instanzeditor kann eine manuelle Überprüfung durchgeführt werden.
 
 Für die Nutzung dieses Moduls wird mindestens die Version 5.0 von IP-Symcon vorausgesetzt.
 
