@@ -120,7 +120,7 @@ class HomeMaticBatteryMonitoring extends IPSModule
             foreach ($notifications as $currentKey => $currentArray) {
                 $rowColor = '';
                 foreach ($notifications as $searchKey => $searchArray) {
-                    // Search for double entries
+                    // Search for duplicate entries
                     if ($searchArray->Position == $currentArray->Position) {
                         if ($searchKey != $currentKey) {
                             $notificationStatus = false;
@@ -161,7 +161,7 @@ class HomeMaticBatteryMonitoring extends IPSModule
             foreach ($emailRecipients as $currentKey => $currentArray) {
                 $rowColor = '';
                 foreach ($emailRecipients as $searchKey => $searchArray) {
-                    // Search for double entries
+                    // Search for duplicate entries
                     if ($searchArray->Position == $currentArray->Position) {
                         if ($searchKey != $currentKey) {
                             $emailStatus = false;
