@@ -68,8 +68,6 @@ class HomeMaticBatteryMonitoring extends IPSModule
         // Never delete this line!
         parent::Create();
         // Register properties
-        $this->RegisterPropertyInteger('CategoryID', 0);
-        $this->RegisterPropertyString('InstanceDescription', $this->Translate('HomeMatic Battery Monitoring'));
         $this->RegisterPropertyString('LocationDesignation', '');
         $this->RegisterPropertyBoolean('UseDailyCheck', false);
         $this->RegisterPropertyString('DailyCheckTime', '{"hour":19,"minute":0,"second":0}');
