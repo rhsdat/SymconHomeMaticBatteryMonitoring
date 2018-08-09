@@ -9,9 +9,9 @@
  * @copyright   (c) 2018
  * @license     CC BY-NC-SA 4.0
  *
- * @version     1.01
- * @date:       2018-08-09, 11:30
- * @lastchange  2018-08-09, 11:30
+ * @version     1.02
+ * @date:       2018-08-09, 20:30
+ * @lastchange  2018-08-09, 20:30
  *
  * @see         https://github.com/ubittner/SymconHomeMaticBatteryMonitoring.git
  *
@@ -21,7 +21,8 @@
  *              Module
  *              {AF3D2026-7739-4011-A0A4-B0A53F6556F8}
  *
- * @changelog   2018-08-09, 11:30, changed configuration form, version 1.01
+ * @changelog   2018-08-09, 20:30, fixed configuration form, version 1.02
+ *              2018-08-09, 11:30, changed configuration form, version 1.01
  *              2018-05-24, 19:45, initial module script, version 1.00
  *
  */

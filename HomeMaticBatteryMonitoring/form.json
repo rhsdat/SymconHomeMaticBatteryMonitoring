@@ -6,7 +6,7 @@
       "items": [
         {
           "type": "Label",
-          "caption": "You are using the HomeMatic Battery Monitoring in version 1.01 (2018-08-09, 11:30)"
+          "caption": "You are using the HomeMatic Battery Monitoring in version 1.02 (2018-08-09, 20:30)"
         },
         {
           "type": "ValidationTextBox",
