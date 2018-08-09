@@ -1,199 +1,190 @@
 {
   "elements": [
     {
-      "type": "Label",
-      "label": "HomeMatic Battery Monitoring - Version 1.00 (2018-05-24, 19:45)"
-    },
-    {
-      "type": "Label",
-      "label": " "
-    },
-    {
-      "type": "Label",
-      "label": "(1) General Settings"
-    },
-    {
-      "type": "SelectCategory",
-      "name": "CategoryID",
-      "caption": "Category"
-    },
-    {
-      "type": "ValidationTextBox",
-      "name": "InstanceDescription",
-      "caption": "Instance Description"
-    },
-    {
-      "type": "ValidationTextBox",
-      "name": "LocationDesignation",
-      "caption": "Location Designation"
-    },
-    {
-      "type": "Label",
-      "label": " "
-    },
-    {
-      "type": "Label",
-      "label": "(2) Check State"
-    },
-    {
-      "type": "CheckBox",
-      "name": "UseDailyCheck",
-      "caption": "Daily Check"
-    },
-    {
-      "type": "SelectTime",
-      "name": "DailyCheckTime",
-      "caption": "Time"
-    },
-    {
-      "type": "Label",
-      "label": " "
-    },
-    {
-      "type": "Label",
-      "label": "(3) Push Notifications"
-    },
-    {
-      "type": "ValidationTextBox",
-      "name": "TitleDescription",
-      "caption": "Title Description"
-    },
-    {
-      "type": "List",
-      "name": "NotificationList",
-      "rowCount": 5,
-      "add": true,
-      "delete": true,
-      "sort": {
-        "column": "Position",
-        "direction": "ascending"
-      },
-      "columns": [
+      "type": "ExpansionPanel",
+      "caption": "(1) General Settings",
+      "items": [
         {
-          "label": "Position",
-          "name": "Position",
-          "width": "100px",
-          "add": "",
-          "edit": {
-            "type": "ValidationTextBox"
-          }
+          "type": "Label",
+          "label": "You are using the HomeMatic Battery Monitoring in version 1.01 (2018-08-09, 11:30)"
         },
         {
-          "label": "WebFront / Pushover",
-          "name": "InstanceID",
-          "width": "auto",
-          "add": 0,
-          "edit": {
-            "type": "SelectInstance"
-          }
-        },
-        {
-          "label": "Utilisation",
-          "name": "UseUtilisation",
-          "width": "150px",
-          "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
-        },
-        {
-          "label": "Status OK",
-          "name": "UseNotification",
-          "width": "150px",
-          "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
-        },
-        {
-          "label": "Low Battery",
-          "name": "UseAlertNotification",
-          "width": "150px",
-          "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
+          "type": "ValidationTextBox",
+          "name": "LocationDesignation",
+          "caption": "Location Designation"
         }
       ]
     },
     {
-      "type": "Label",
-      "label": "(4) Email Notifications"
+      "type": "ExpansionPanel",
+      "caption": "(2) Check State",
+      "items": [
+        {
+          "type": "CheckBox",
+          "name": "UseDailyCheck",
+          "caption": "Daily Check"
+        },
+        {
+          "type": "SelectTime",
+          "name": "DailyCheckTime",
+          "caption": "Time"
+        }
+      ]
     },
     {
-      "type": "ValidationTextBox",
-      "name": "EmailSubject",
-      "caption": "Email Subject"
+      "type": "ExpansionPanel",
+      "caption": "(3) Push Notifications",
+      "items": [
+        {
+          "type": "ValidationTextBox",
+          "name": "TitleDescription",
+          "caption": "Title Description"
+        },
+        {
+          "type": "List",
+          "name": "NotificationList",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "label": "Position",
+              "name": "Position",
+              "width": "100px",
+              "add": "",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "label": "WebFront / Pushover",
+              "name": "InstanceID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectInstance"
+              }
+            },
+            {
+              "label": "Utilisation",
+              "name": "UseUtilisation",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            },
+            {
+              "label": "Status OK",
+              "name": "UseNotification",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            },
+            {
+              "label": "Low Battery",
+              "name": "UseAlertNotification",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "List",
-      "name": "EmailRecipientList",
-      "rowCount": 5,
-      "add": true,
-      "delete": true,
-      "sort": {
-        "column": "Position",
-        "direction": "ascending"
-      },
-      "columns": [
+      "type": "ExpansionPanel",
+      "caption": "(4) Email Notifications",
+      "items": [
         {
-          "label": "Position",
-          "name": "Position",
-          "width": "100px",
-          "add": "",
-          "edit": {
-            "type": "ValidationTextBox"
-          }
+          "type": "ValidationTextBox",
+          "name": "EmailSubject",
+          "caption": "Email Subject"
         },
         {
-          "label": "Email (SMTP) Instance",
-          "name": "InstanceID",
-          "width": "auto",
-          "add": 0,
-          "edit": {
-            "type": "SelectInstance"
-          }
-        },
-        {
-          "label": "Email Address",
-          "name": "EmailAddress",
-          "width": "300px",
-          "add": "@",
-          "edit": {
-            "type": "ValidationTextBox"
-          }
-        },
-        {
-          "label": "Utilisation",
-          "name": "UseUtilisation",
-          "width": "150px",
+          "type": "List",
+          "name": "EmailRecipientList",
+          "rowCount": 5,
           "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
-        },
-        {
-          "label": "Status OK",
-          "name": "UseNotification",
-          "width": "150px",
-          "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
-        },
-        {
-          "label": "Low Battery",
-          "name": "UseAlertNotification",
-          "width": "150px",
-          "add": true,
-          "edit": {
-            "type": "CheckBox"
-          }
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "label": "Position",
+              "name": "Position",
+              "width": "100px",
+              "add": "",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "label": "Email (SMTP) Instance",
+              "name": "InstanceID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectInstance"
+              }
+            },
+            {
+              "label": "Email Address",
+              "name": "EmailAddress",
+              "width": "300px",
+              "add": "@",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "label": "Utilisation",
+              "name": "UseUtilisation",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            },
+            {
+              "label": "Status OK",
+              "name": "UseNotification",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            },
+            {
+              "label": "Low Battery",
+              "name": "UseAlertNotification",
+              "width": "150px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
         }
       ]
     }
   ],
   "actions": [
+    {
+      "type": "Button",
+      "label": "Github.com",
+      "onClick": "echo 'https://github.com/ubittner/SymconHomeMaticBatteryMonitoring'"
+    },
     {
       "type": "Button",
       "label": "Show State",
@@ -235,11 +226,6 @@
       "code": 104,
       "icon": "inactive",
       "caption": "HomeMatic Battery Monitoring is inactive"
-    },
-    {
-      "code": 2121,
-      "icon": "error",
-      "caption": "Please enter an instance description under (1) General Settings!"
     },
     {
       "code": 2311,

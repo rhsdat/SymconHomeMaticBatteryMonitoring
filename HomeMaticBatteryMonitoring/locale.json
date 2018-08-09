@@ -1,10 +1,8 @@
 {
   "translations": {
     "de": {
-      "HomeMatic Battery Monitoring - Version 1.00 (2018-05-24, 19:45)": "HomeMatic Batterieüberwachung - Version 1.00 (24.05.2018, 19:45)",
       "(1) General Settings": "(1) Allgemeine Einstellungen",
-      "Category": "Kategorie",
-      "Instance Description": "Instanzbezeichnung",
+      "You are using the HomeMatic Battery Monitoring in version 1.01 (2018-08-09, 11:30)": "Sie nutzen die HomeMatic Batterieüberwachung in der Version 1.01 (09.08.2018, 11:30)",
       "Location Designation": "Standortbezeichnung",
       "(2) Check State": "(2) Statusüberpüfung",
       "Daily Check": "Tägliche Überprüfung",
@@ -25,7 +23,6 @@
       "HomeMatic Battery Monitoring is active": "HomeMatic Batterieüberwachung ist aktiv",
       "HomeMatic Battery Monitoring will be deleted": "HomeMatic Batterieüberwachung wird gelöscht",
       "HomeMatic Battery Monitoring is inactive": "HomeMatic Batterieüberwachung ist inaktiv",
-      "Please enter an instance description under (1) General Settings!": "Bitte geben Sie eine Instanzbezeichnung unter (1) Allgemeine Einstellungen an!",
       "Please enter a title description under (3) Push Notifications!": "Bitte geben Sie eine Titelbezeichnung unter (3) Push Benachrichtigungen an!",
       "Please check the entries marked in red under (3) Push Notifications!": "Bitte überprüfen Sie die rot markierten Einträge unter (3) Push Benachrichtigungen!",
       "Please enter an email subject under (4) Email Notifications!": "Bitte geben Sie einen E-Mail Betreff unter (4) E-Mail Benachrichtigungen an!",

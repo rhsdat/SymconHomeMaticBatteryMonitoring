@@ -1,10 +1,10 @@
 ## SymconHomeMaticBatteryMonitoring
 
 [![Version](https://img.shields.io/badge/Symcon_Version-5.0>-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
-![Version](https://img.shields.io/badge/Modul_Version-1.00-blue.svg)
+![Version](https://img.shields.io/badge/Modul_Version-1.01-blue.svg)
 ![Version](https://img.shields.io/badge/Code-PHP-blue.svg)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![StyleCI](https://github.styleci.io/repos/135727452/shield?branch=master)](https://github.styleci.io/repos/135727452)
+[![StyleCI](https://github.styleci.io/repos/135727452/shield?branch=master&style=flat)](https://github.styleci.io/repos/135727452)
 
 Dieses Modul überwacht den Batteriestatus von batteriebetriebenen [HomeMatic](http://www.eq-3.de/produkte/homematic.html) oder [HomeMaticIP](http://www.eq-3.de/produkte/homematic-ip.html) Geräten (nachfolgend Geräte genannt), welche in [IP-Symcon](https://www.symcon.de) angelegt, bzw vorhanden sind. 
 
@@ -82,8 +82,6 @@ __Konfigurationsseite__:
 Name | Beschreibung
 ----------------------------------- | ---------------------------------------------
 (1) Allgemeine Einstellungen        | Allgemeine Einstellungen.
-Kategorie                           | Kategorie in der die HomeMatic Batterieüberwachung abgelegt werden soll.
-Instanzbezeichnung                  | Bezeichnung für die Instanz.
 Standortbezeichnung                 | Bezeichnung für den Standort, z.B. Straße oder einen Namen.
 (2) Statusüberprüfung               | Statusüberprüfung.
 Tägliche Überprüfung                | Schaltet die tägliche Überprüfung ein, bzw. aus.
@@ -106,10 +104,6 @@ Verwendung                          | Verwendung der E-Mail Benachrichtigung kan
 Status OK                           | Benachrichtigung bei Status OK kann de, bzw. aktiviert werden.
 Batterie schwach                    | Benachrichtigung bei Batterie schwach kann de-, bzw. aktiviert werden. 
 
-
-Über das Konfigurationsfeld `Kategorie` können Sie festlegen, in welcher Kategorie die Instanz abgelegt werden sollen. Es kann auch die Hauptkategorie genutzt werden.
-
-Geben Sie eine Bezeichung für die Instanz an, z.B. Batterieüberwachung. 
 
 Optional können Sie noch eine Standortbezeichnung hinzufügen.
 
@@ -176,6 +170,7 @@ __Modul GUIDs__:
 
 Version     | Datum      | Beschreibung
 ----------- | -----------| -------------------
+1.01        | 09.08.2018 | Änderungen im Instanzeditor
 1.00        | 24.05.2018 | Modulerstellung
 
 ### 10. Lizenz
