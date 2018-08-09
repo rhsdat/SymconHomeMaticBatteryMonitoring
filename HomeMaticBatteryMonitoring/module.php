@@ -150,7 +150,7 @@ class HomeMaticBatteryMonitoring extends IPSModule
                         $this->SetStatus(2321);
                     }
                 }
-                $formdata->elements[13]->values[] = ['rowColor' => $rowColor];
+                $formdata->elements[2]->items[1]->values[] = ['rowColor' => $rowColor];
             }
         }
         // Email notifications
@@ -193,7 +193,7 @@ class HomeMaticBatteryMonitoring extends IPSModule
                         $this->SetStatus(2421);
                     }
                 }
-                $formdata->elements[16]->values[] = ['rowColor' => $rowColor];
+                $formdata->elements[3]->items[1]->values[] = ['rowColor' => $rowColor];
             }
         }
         return json_encode($formdata);
