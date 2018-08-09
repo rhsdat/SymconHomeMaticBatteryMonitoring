@@ -6,7 +6,7 @@
       "items": [
         {
           "type": "Label",
-          "label": "You are using the HomeMatic Battery Monitoring in version 1.01 (2018-08-09, 11:30)"
+          "caption": "You are using the HomeMatic Battery Monitoring in version 1.01 (2018-08-09, 11:30)"
         },
         {
           "type": "ValidationTextBox",
@@ -52,7 +52,7 @@
           },
           "columns": [
             {
-              "label": "Position",
+              "caption": "Position",
               "name": "Position",
               "width": "100px",
               "add": "",
@@ -61,7 +61,7 @@
               }
             },
             {
-              "label": "WebFront / Pushover",
+              "caption": "WebFront / Pushover",
               "name": "InstanceID",
               "width": "auto",
               "add": 0,
@@ -70,7 +70,7 @@
               }
             },
             {
-              "label": "Utilisation",
+              "caption": "Utilisation",
               "name": "UseUtilisation",
               "width": "150px",
               "add": true,
@@ -79,7 +79,7 @@
               }
             },
             {
-              "label": "Status OK",
+              "caption": "Status OK",
               "name": "UseNotification",
               "width": "150px",
               "add": true,
@@ -88,7 +88,7 @@
               }
             },
             {
-              "label": "Low Battery",
+              "caption": "Low Battery",
               "name": "UseAlertNotification",
               "width": "150px",
               "add": true,
@@ -121,7 +121,7 @@
           },
           "columns": [
             {
-              "label": "Position",
+              "caption": "Position",
               "name": "Position",
               "width": "100px",
               "add": "",
@@ -130,7 +130,7 @@
               }
             },
             {
-              "label": "Email (SMTP) Instance",
+              "caption": "Email (SMTP) Instance",
               "name": "InstanceID",
               "width": "auto",
               "add": 0,
@@ -139,7 +139,7 @@
               }
             },
             {
-              "label": "Email Address",
+              "caption": "Email Address",
               "name": "EmailAddress",
               "width": "300px",
               "add": "@",
@@ -148,7 +148,7 @@
               }
             },
             {
-              "label": "Utilisation",
+              "caption": "Utilisation",
               "name": "UseUtilisation",
               "width": "150px",
               "add": true,
@@ -157,7 +157,7 @@
               }
             },
             {
-              "label": "Status OK",
+              "caption": "Status OK",
               "name": "UseNotification",
               "width": "150px",
               "add": true,
@@ -166,7 +166,7 @@
               }
             },
             {
-              "label": "Low Battery",
+              "caption": "Low Battery",
               "name": "UseAlertNotification",
               "width": "150px",
               "add": true,
@@ -182,27 +182,27 @@
   "actions": [
     {
       "type": "Button",
-      "label": "Github.com",
+      "caption": "Github.com",
       "onClick": "echo 'https://github.com/ubittner/SymconHomeMaticBatteryMonitoring'"
     },
     {
       "type": "Button",
-      "label": "Show State",
+      "caption": "Show State",
       "onClick": "UBHMBM_ShowBatteryState($id);"
     },
     {
       "type": "Button",
-      "label": "Check Status",
+      "caption": "Check Status",
       "onClick": "UBHMBM_CheckBatteryState($id);"
     },
     {
       "type": "Button",
-      "label": "Create Overview",
+      "caption": "Create Overview",
       "onClick": "UBHMBM_CreateBatteryLinks($id);"
     },
     {
       "type": "Button",
-      "label": "Assign Profile",
+      "caption": "Assign Profile",
       "onClick": "UBHMBM_AssignBatteryProfile($id);"
     }
   ],
